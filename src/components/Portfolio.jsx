@@ -1,0 +1,26 @@
+import React from "react";
+import portfolio from "../data/portfolio";
+import PortfolioItem from "./PortfolioItem";
+
+function Portfolio() {
+  return (
+    <div className=" grid md:flex-row items-center justify-center w-auto ">
+      <h3 className=" text-center text-lg font-bold w-auto">
+        Lista de proyectos:
+      </h3>
+      <br />
+      <div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {portfolio.map((port) => (
+          <PortfolioItem
+            imgUrl={port.imgUrl}
+            title={port.title}
+            stack={port.stack}
+            link={port.link}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default Portfolio;
