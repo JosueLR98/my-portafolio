@@ -18,6 +18,10 @@ function Footer() {
             >
               <i className="bx bxl-github text-3xl"></i>
             </a>
+            <div className=" flex-col  p-2 font-semibold ">
+            <p >Telefono: +506 72817535</p>
+            <p>email:josue12131415@gmail.com</p>
+            </div>
           </div>
         </div>
       </div>

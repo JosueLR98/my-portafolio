@@ -1,4 +1,3 @@
-import React from 'react';
 
 function TimelineItem({ year, title, duration, details }) {
    return (
