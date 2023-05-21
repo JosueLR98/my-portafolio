@@ -7,7 +7,7 @@ export default [
    },
    {
       title: 'Galleta de la fortuna',
-      imgUrl: '/assets/galleta-de-fortuna.png',
+      imgUrl: '/assets/galletadefortuna.png',
       stack: ['React', 'Tailwind', 'Vite'],
       link: 'https://golden-cocada-4abf62.netlify.app/',
    },

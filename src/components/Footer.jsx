@@ -1,6 +1,7 @@
 import React from "react";
 
 function Footer() {
+  
   return (
     <div className="py-5 text-center">
       <div className="container max-w-screen-lg mx-auto">
@@ -20,9 +21,10 @@ function Footer() {
             </a>
             <div className=" flex-col  p-2 font-semibold ">
             <p >Telefono: +506 72817535</p>
-            <p>email:josue12131415@gmail.com</p>
+            <p>email: josue12131415@gmail.com</p>
             </div>
           </div>
+          
         </div>
       </div>
       <p className="text-base mt-2 ">
