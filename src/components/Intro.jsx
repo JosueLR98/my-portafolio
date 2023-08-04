@@ -13,7 +13,7 @@ function Intro() {
       <p className="text-base md:text-xl mb-3 font-medium">Web Developer</p>
       <p className="text-lg max-w-xl mb-3 font-bold">
         Soy un desarrollador full-stack con dominio de html, css, javascript,
-        react y redux inicie mi carrera con gran motivacion y actualmete
+        react y redux inicié mi carrera con gran motivación y actualmete
         estudiante de ingeniería informática, mis proyectos son desde cero,
         desde la planificación y el diseño hasta el final agradezco su tiempo
         por revisar mis proyectos .
