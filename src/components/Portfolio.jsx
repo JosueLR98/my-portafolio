@@ -5,7 +5,7 @@ import PortfolioItem from "./PortfolioItem";
 function Portfolio() {
   return (
     <div id="projects" className=" grid sm:flex-row   sm:w-auto ">
-      <h3 className=" text-center text-lg font-bold w-auto">
+      <h3 className=" text-center text-2xl font-bold w-auto ">
         Lista de proyectos:
       </h3>
       <br />
