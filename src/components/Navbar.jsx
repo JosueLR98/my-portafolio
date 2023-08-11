@@ -4,10 +4,10 @@ const Navbar = () => {
   const [sticky, setSticky] = useState(false);
   const [open, setOpen] = useState(false);
   const menuLinks = [
-    { name: "Intro", link: "#intro" },
-    { name: "Skills", link: "#skills" },
-    { name: "Projects", link: "#projects" },
-    { name: "Contact", link: "#contact" },
+    { name: "Introducción", link: "#intro" },
+    { name: "Habilidades", link: "#skills" },
+    { name: "Proyectos", link: "#projects" },
+    { name: "Contacto", link: "#contact" },
   ];
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -41,7 +41,7 @@ const Navbar = () => {
             open ? "text-gray-900" : "text-gray-100"
           } text-4xl sm:hidden mt-1`}
         >
-          <i className='bx bx-menu-alt-left text-cyan-600'></i>
+          <i className="bx bx-menu-alt-left text-cyan-600"></i>
         </div>
         <div
           className={`sm:hidden text-gray-900 absolute w-40 h-screen
